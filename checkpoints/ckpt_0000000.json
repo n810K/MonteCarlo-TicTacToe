@@ -1,0 +1,1 @@
+{"name":"untrained","episodes":0,"alpha":0.2,"meta":{"seed":0,"mix":"self=0.30,perfect=0.50,heuristic=0.10,random=0.10","alpha":[0.2,0.01],"eps":[0.2,0.0]},"table":{}}

@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.tmp
+
+# Alternate training runs. The shipped run in checkpoints/ is committed so that
+# the numbers and attack lines in the README stay reproducible.
+checkpoints_*/

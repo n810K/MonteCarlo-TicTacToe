@@ -1,0 +1,121 @@
+{
+  "episodes": 400000,
+  "config": {
+    "episodes": 400000,
+    "seed": 0,
+    "out": "checkpoints",
+    "alpha_start": 0.2,
+    "alpha_end": 0.01,
+    "eps_start": 0.2,
+    "eps_end": 0.0,
+    "anneal": 0.6,
+    "explore_starts": 0.75,
+    "mix": "self=0.30,perfect=0.50,heuristic=0.10,random=0.10",
+    "every": 0,
+    "extra_round": 25000,
+    "max_extra": 40,
+    "until": "optimal"
+  },
+  "checkpoints": [
+    {
+      "episodes": 0,
+      "file": "ckpt_0000000.json",
+      "label": "untrained"
+    },
+    {
+      "episodes": 25,
+      "file": "ckpt_0000025.json",
+      "label": "ep25"
+    },
+    {
+      "episodes": 50,
+      "file": "ckpt_0000050.json",
+      "label": "ep50"
+    },
+    {
+      "episodes": 100,
+      "file": "ckpt_0000100.json",
+      "label": "ep100"
+    },
+    {
+      "episodes": 200,
+      "file": "ckpt_0000200.json",
+      "label": "ep200"
+    },
+    {
+      "episodes": 400,
+      "file": "ckpt_0000400.json",
+      "label": "ep400"
+    },
+    {
+      "episodes": 800,
+      "file": "ckpt_0000800.json",
+      "label": "ep800"
+    },
+    {
+      "episodes": 1500,
+      "file": "ckpt_0001500.json",
+      "label": "ep1500"
+    },
+    {
+      "episodes": 3000,
+      "file": "ckpt_0003000.json",
+      "label": "ep3000"
+    },
+    {
+      "episodes": 6000,
+      "file": "ckpt_0006000.json",
+      "label": "ep6000"
+    },
+    {
+      "episodes": 12000,
+      "file": "ckpt_0012000.json",
+      "label": "ep12000"
+    },
+    {
+      "episodes": 25000,
+      "file": "ckpt_0025000.json",
+      "label": "ep25000"
+    },
+    {
+      "episodes": 40000,
+      "file": "ckpt_0040000.json",
+      "label": "ep40000"
+    },
+    {
+      "episodes": 60000,
+      "file": "ckpt_0060000.json",
+      "label": "ep60000"
+    },
+    {
+      "episodes": 80000,
+      "file": "ckpt_0080000.json",
+      "label": "ep80000"
+    },
+    {
+      "episodes": 100000,
+      "file": "ckpt_0100000.json",
+      "label": "ep100000"
+    },
+    {
+      "episodes": 150000,
+      "file": "ckpt_0150000.json",
+      "label": "ep150000"
+    },
+    {
+      "episodes": 200000,
+      "file": "ckpt_0200000.json",
+      "label": "ep200000"
+    },
+    {
+      "episodes": 300000,
+      "file": "ckpt_0300000.json",
+      "label": "ep300000"
+    },
+    {
+      "episodes": 400000,
+      "file": "final.json",
+      "label": "final"
+    }
+  ]
+}
